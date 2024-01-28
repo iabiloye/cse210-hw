@@ -5,7 +5,7 @@ class Program
     static void Main()
     {
         ScriptureReference reference = new ScriptureReference("John 3:16");
-        Scripture scripture = new Scripture(reference, "For God so loved the world...");
+        Scripture scripture = new Scripture(reference, "For God so loved thFor God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.");
 
         DisplayScripture(scripture);
 
