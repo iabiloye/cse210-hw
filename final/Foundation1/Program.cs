@@ -10,7 +10,7 @@ namespace AbstractionWithYouTubeVideos
         static void Main(string[] args)
         {
             // Creating a video
-            Video video = new Video("Web Development Tutorial", "By Abiloye Iyanuoluwa John", 640);
+            Video video = new Video("Web Development Tutorial Video", " By Abiloye Iyanuoluwa John", 640);
 
             // Adding comments
             video.AddComment(new Comment("Joseph Adat", "Great tutorial for me to learn easily!"));
