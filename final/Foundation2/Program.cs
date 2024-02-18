@@ -21,6 +21,8 @@ namespace EncapsulationWithOnlineOrdering
             Order order = new Order(customer);
             order.Products.Add(product1);
             order.Products.Add(product2);
+            order.Products.Add(product3);
+            order.Products.Add(product4);
 
             // order information
             Console.WriteLine(order.GetPackingLabel());
